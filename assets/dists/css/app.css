@@ -1,0 +1,253 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,500,700);
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700,900);
+@media (min-width: 768px) {
+  .navbar {
+    margin-bottom: 0px; } }
+
+section.navigation-wrapper, .navbar-blue {
+  border: none;
+  background: #4285F4; }
+
+.navbar-blue .navbar-brand, .navbar-blue .navbar-nav > li > a {
+  color: #fff; }
+
+.navbar-blue .navbar-brand:hover, .navbar-blue .navbar-nav > li > a:hover {
+  color: #fff; }
+
+.navbar-blue .navbar-nav > li > a:hover, .navbar-blue .navbar-nav > li > a:focus {
+  background: #2a75f3; }
+
+.navbar-blue .navbar-toggle .icon-bar {
+  background: #fff; }
+
+.panel-contact-info, .panel-description {
+  border-radius: 0;
+  box-shadow: none; }
+  .panel-contact-info .panel-heading h3, .panel-description .panel-heading h3 {
+    background-color: #fff;
+    font-weight: 500; }
+  .panel-contact-info .panel-body ul, .panel-description .panel-body ul {
+    list-style: none;
+    padding-left: 0; }
+    .panel-contact-info .panel-body ul li, .panel-description .panel-body ul li {
+      margin-bottom: 5px; }
+
+.btn-primary {
+  color: #fff;
+  background-color: #4285F4;
+  border-color: #1266f1; }
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary.focus,
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+  color: #fff;
+  background-color: #1266f1;
+  border-color: #0b51c5; }
+
+@media (max-width: 768px) {
+  .place-categories .category-item {
+    float: left;
+    width: 50%; } }
+
+@media (max-width: 400px) {
+  .place-categories .category-item {
+    float: none;
+    width: 100%; } }
+
+.place-categories .category-item div {
+  padding: 35px 10px;
+  border: 1px solid #cfdde6;
+  border-radius: 3px;
+  margin-bottom: 35px; }
+  .place-categories .category-item div i {
+    display: block;
+    font-size: 32px;
+    text-align: center;
+    color: #cfdde6;
+    transition: 0.3s; }
+  .place-categories .category-item div h4 {
+    color: #4285F4;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+    transition: 0.3s; }
+
+#places .featured-place h2, #places .popular-place h2, #places .deals h2 {
+  font-size: 22px;
+  font-weight: 600; }
+  #places .featured-place h2 span, #places .popular-place h2 span, #places .deals h2 span {
+    width: 80px;
+    height: 1px;
+    display: block;
+    margin: 20px 0px;
+    background: #4285F4; }
+
+#places .featured-place h3, #places .popular-place h3, #places .deals h3 {
+  font-size: 16px;
+  font-weight: 500; }
+
+.place-item {
+  margin-bottom: 30px; }
+  .place-item .panel-inner .description {
+    background: #fff;
+    border: 1px solid #e4e4e4;
+    border-top: 0px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.07);
+    padding: 25px; }
+
+.feature-section {
+  padding: 100px 0; }
+  .feature-section .section-title {
+    margin-bottom: 50px; }
+  .feature-section .description {
+    line-height: 28px; }
+
+.section-browse-category {
+  background-color: #f05f40;
+  color: #fff; }
+  .section-browse-category a {
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 20px 20px; }
+
+.section-recommended-place {
+  background: #fafafa; }
+
+#places .place-wrapper {
+  border-right: 1px solid #E5E5E5;
+  border-left: 1px solid #E5E5E5; }
+  #places .place-wrapper .place-item {
+    position: relative;
+    margin-bottom: 0;
+    border-bottom: 1px solid #E5E5E5; }
+    #places .place-wrapper .place-item:first-child {
+      border-top: 1px solid #E5E5E5; }
+    #places .place-wrapper .place-item .content {
+      overflow: hidden; }
+      #places .place-wrapper .place-item .content img {
+        display: block;
+        float: left;
+        max-width: 200px;
+        margin: 14px;
+        border-radius: 3px; }
+      #places .place-wrapper .place-item .content .details {
+        float: none;
+        margin-left: 240px;
+        padding-right: 30px; }
+
+@media (max-width: 767px) {
+  #main-content {
+    margin-top: 20px; } }
+
+body {
+  font-family: 'Roboto', 'Lato', sans-serif; }
+
+#map-canvas {
+  height: 280px;
+  margin: 0px;
+  padding: 0px; }
+
+#map-canvas.tall {
+  height: 480px; }
+
+#search-bar {
+  background: url("../img/new-york.jpg") center center;
+  padding: 60px 0;
+  width: 100%; }
+  #search-bar h2 {
+    line-height: 40px;
+    color: #fff;
+    font-family: 'Lato', 'Roboto', sans-serif; }
+  #search-bar .find-label {
+    color: #fff;
+    font-size: 22px;
+    padding: 0; }
+
+h2 span, h3 span {
+  width: 80px;
+  height: 1px;
+  display: block;
+  margin: 20px 0px;
+  background: #4285F4; }
+
+h2 a:hover, h3 a:hover {
+  text-decoration: none; }
+
+.media-left, .media > .pull-left {
+  padding-right: 30px; }
+
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+  font-size: 16px; }
+  .rating span.star {
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    display: inline-block; }
+  .rating span.star:hover {
+    cursor: pointer; }
+  .rating span.star:before {
+    content: "\f006";
+    padding-right: 5px;
+    color: #777777; }
+  .rating span.star:hover:before,
+  .rating span.star:hover ~ span.star:before {
+    content: "\f005";
+    color: #e3cf7a; }
+
+.place-detail div {
+  float: left;
+  width: 50%; }
+
+.place-detail ul {
+  padding: 20px 30px; }
+  .place-detail ul li {
+    list-style: none;
+    margin: 13px 0px; }
+    .place-detail ul li i {
+      margin-right: 10px; }
+
+.similar-places .similar-place-item h3 {
+  font-size: 20px; }
+
+.page-info {
+  padding: 60px 15px 60px; }
+
+#footer {
+  line-height: 24px; }
+  #footer .main-footer {
+    background: #1a1a1a;
+    color: #8f95a3;
+    padding: 60px 0;
+    margin-top: 60px;}
+    #footer .main-footer h2 {
+      font-size: 18px;
+      font-weight: 700;
+      margin-bottom: 10px;
+      padding-bottom: 5px;
+      text-transform: uppercase;
+      color: #fff; }
+    #footer .main-footer ul {
+      list-style: none;
+      padding-left: 0; }
+      #footer .main-footer ul li a {
+        color: #8f95a3; }
+      #footer .main-footer ul li a:hover {
+        color: #fff;
+        text-decoration: none; }
+  #footer .sub-footer {
+    font-size: 15px;
+    padding: 20px 0;
+    text-align: center;
+    color: #fff;
+    background: #000; }
+
+/*# sourceMappingURL=app.css.map */
